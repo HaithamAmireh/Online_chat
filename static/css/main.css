@@ -1,0 +1,54 @@
+#messages p {
+    color: rgb(255, 255, 255);
+    font-size: medium;
+}
+body{
+    background-color: rgb(50, 4, 4);
+}
+#messages {
+    background-color: green;
+    width: 500px;
+    border-color: azure;
+    border-width: 10px;
+}
+#form {
+    margin-top: 200px;
+    display:flex;
+    flex-direction: column;
+    align-items: left;
+    background-color: black;
+    width: 500px;
+    height: 500px;
+}
+input {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 25px;
+    margin-top: 20px;
+    height: 20px;
+    font-size: large;
+  }
+
+#sendBtn {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 25px;
+    margin-top: 20px;
+    height: 30px;
+    background-color: yellow;
+    font-size: large;
+
+}
+#message-section {
+    display: flex;
+    position: relative;
+    overflow-y:scroll;
+    max-height: 500px;
+}
+#main-content {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-end;
+}
